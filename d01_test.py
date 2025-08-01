@@ -1,7 +1,7 @@
 from unittest import TestCase
 
 import aoc
-from d1 import p1, p2
+from d01 import p1, p2
 
 
 class D01_Test(TestCase):

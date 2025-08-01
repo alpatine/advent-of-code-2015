@@ -3,4 +3,4 @@ def readDataFile(fileName: str) -> str:
         return dataFile.read()
 
 def d01data() -> str:
-    return readDataFile('d1_data.txt')
+    return readDataFile('d01_data.txt')
