@@ -17,6 +17,6 @@ def p2(data: str) -> int:
             return i + 1
 
 if __name__ == '__main__':
-    data = aoc.readDataFile('d1_data.txt')
+    data = aoc.d01data()
     print(p1(data))
     print(p2(data))
