@@ -4,7 +4,7 @@ import aoc
 from d03 import p1, p2
 
 
-class D02_Test(TestCase):
+class D03_Test(TestCase):
     def setUp(self):
         super().setUp()
         self.given_data = aoc.d03data()
