@@ -19,7 +19,7 @@ def parse_data(data: str) -> tuple[list[str], dict[tuple[str, str], int]]:
     return (list(places), distances)
 
 # Part 1
-def p1(data: str, desired_wire: str = 'a') -> int:
+def p1(data: str) -> int:
     places, distances = parse_data(data)
     shortest_route_length = sum(distances.values())
 
@@ -33,7 +33,7 @@ def p1(data: str, desired_wire: str = 'a') -> int:
     return shortest_route_length
 
 # Part 2
-def p2(data: str, desired_wire: str = 'a') -> int:
+def p2(data: str) -> int:
     places, distances = parse_data(data)
     longest_route_length = 0
 
