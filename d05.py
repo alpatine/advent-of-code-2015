@@ -60,6 +60,6 @@ def p2(data: str) -> int:
     return count
 
 if __name__ == '__main__':
-    data = aoc.d05data()
+    data = aoc.d05_data()
     print(p1(data))
     print(p2(data))

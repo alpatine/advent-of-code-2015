@@ -48,6 +48,6 @@ def p2(data: str, time_passed: int = 2503) -> int:
 
 # Main
 if __name__ == '__main__':
-    data = aoc.d14data()
+    data = aoc.d14_data()
     print(p1(data))
     print(p2(data))

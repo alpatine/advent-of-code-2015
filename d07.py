@@ -108,6 +108,6 @@ def p2(data: str, desired_wire: str = 'a') -> int:
 
 # Main
 if __name__ == '__main__':
-    data = aoc.d07data()
+    data = aoc.d07_data()
     print(p1(data, 'a'))
     print(p2(data, 'a'))

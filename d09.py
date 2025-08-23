@@ -48,6 +48,6 @@ def p2(data: str) -> int:
 
 # Main
 if __name__ == '__main__':
-    data = aoc.d09data()
+    data = aoc.d09_data()
     print(p1(data))
     print(p2(data))

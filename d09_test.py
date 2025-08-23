@@ -7,7 +7,7 @@ from d09 import p1, p2
 class D09_Test(TestCase):
     def setUp(self):
         super().setUp()
-        self.given_data = aoc.d09data()
+        self.given_data = aoc.d09_data()
 
     # Part 1 Tests
     def test_p1_examples(self):

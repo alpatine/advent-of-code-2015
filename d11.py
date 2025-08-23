@@ -95,6 +95,6 @@ def p2(data: str) -> int:
 
 # Main
 if __name__ == '__main__':
-    data = aoc.d11data()
+    data = aoc.d11_data()
     print(p1(data))
     print(p2(data))

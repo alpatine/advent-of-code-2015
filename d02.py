@@ -26,6 +26,6 @@ def p2(data: str) -> int:
     return total_ribbon
 
 if __name__ == '__main__':
-    data = aoc.d02data()
+    data = aoc.d02_data()
     print(p1(data))
     print(p2(data))

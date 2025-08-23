@@ -24,6 +24,6 @@ def p2(data: str) -> int:
         salt += 1
 
 if __name__ == '__main__':
-    data = aoc.d04data()
+    data = aoc.d04_data()
     print(p1(data))
     print(p2(data))

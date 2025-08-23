@@ -17,6 +17,6 @@ def p2(data: str) -> int:
             return i + 1
 
 if __name__ == '__main__':
-    data = aoc.d01data()
+    data = aoc.d01_data()
     print(p1(data))
     print(p2(data))

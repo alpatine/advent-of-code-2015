@@ -41,6 +41,6 @@ def p2(data: str) -> int:
     return len(visited)
 
 if __name__ == '__main__':
-    data = aoc.d03data()
+    data = aoc.d03_data()
     print(p1(data))
     print(p2(data))

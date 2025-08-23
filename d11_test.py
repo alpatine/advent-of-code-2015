@@ -7,7 +7,7 @@ from d11 import p1, p2
 class D11_Test(TestCase):
     def setUp(self):
         super().setUp()
-        self.given_data = aoc.d11data()
+        self.given_data = aoc.d11_data()
 
     # Part 1 Tests
     def test_p1_examples(self):

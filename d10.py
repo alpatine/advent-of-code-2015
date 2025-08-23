@@ -44,6 +44,6 @@ def p2(data: str, applications: int = 50) -> int:
 
 # Main
 if __name__ == '__main__':
-    data = aoc.d10data()
+    data = aoc.d10_data()
     print(p1(data))
     print(p2(data))
